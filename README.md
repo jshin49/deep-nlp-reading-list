@@ -2,12 +2,12 @@
 My own detailed syllabus for learning Deep Learning and NLP
 
 ## Table of Contents
-0. [Mathematical Foundations](fathematical-foundations)
-1. [Machine Learning](machine-learning)
-2. [Deep Learning](deep-learning)
-3. [Statistical NLP](statistical-nlp)
-4. [Deep NLP](deep-nlp)
-    - [Neural Language Modeling](neural-language-modeling)
+0. [Mathematical Foundations](#mathematical-foundations)
+1. [Machine Learning](#machine-learning)
+2. [Deep Learning](#deep-learning)
+3. [Statistical NLP](#statistical-nlp)
+4. [Deep NLP](#deep-nlp)
+    - [Neural Language Modeling](#neural-language-modeling)
 
 ## Mathematical Foundations
 ### Basics
