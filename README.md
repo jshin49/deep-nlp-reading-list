@@ -1,5 +1,5 @@
 # Deep NLP Roadmap
-My own detailed syllabus for learning Deep Learning and NLP
+This serves as my own detailed roadmap for studying Deep Learning and/with NLP, followed by an awesome list of papers in ML, DL, and NLP. Each section will refer to useful materials that can help, including MOOCs, blog posts, books, lecture notes, papers.
 
 ## Table of Contents
 0. [Mathematical Foundations](#mathematical-foundations)
@@ -34,11 +34,12 @@ If you are confident in these math subjects, you can just skip this part or simp
 - Probability and Statistics
   - Refreshers
     - [Deep Learning Book Chapter 3 - Probability and Information Theory](http://www.deeplearningbook.org/contents/prob.html)
+    - Chapters 1, 2, and 11 of 'Pattern Recognition and Machine Learning' by Bishop (2006)
     - [Khan Academy Probability and Statistics](https://www.khanacademy.org/math/statistics-probability)
   - **[Harvard STAT110](https://projects.iq.harvard.edu/stat110)**: The infamous Joe Blitzstein's Introduction to probability and statistics. Despite being an introductory course, it covers quite a lot of the essentials we need to further understand the math in machine learning and deep learning.
   - Readings
-    - Chapters 2~6 of <Machine Learning A Probabilistic Perspective> by Murphy (2012)
-    - Lecture Notes: [<Probability and Statistics for Data Science>](http://www.cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) by Carlos Fernandez-Granda
+    - Chapters 2~6 of 'Machine Learning A Probabilistic Perspective' by Murphy (2012)
+    - Lecture Notes: ['Probability and Statistics for Data Science'](http://www.cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) by Carlos Fernandez-Granda
 
 ### Advanced
 [[Back To TOC]](#table-of-contents)
@@ -58,7 +59,8 @@ The following subjects are some advanced materials that could be useful in under
 - Abstract Algebra
 - Real and Complex Analysis
 - Theories of Deep Learning
-  - [Stanford STATS335](https://stats385.github.io/)
+  - [Stanford STATS385](https://stats385.github.io/)
+
 
 ## Machine Learning
 [[Back To TOC]](#table-of-contents)
@@ -66,19 +68,32 @@ The following subjects are some advanced materials that could be useful in under
 In this context, Machine Learning refers to the conventional Machine Learning methods used in modeling various tasks before the prevailing advent of deep neural networks. These algorithms are still very often used in the industry due to their performance (in terms of resource consumption) and interpretability. Those who are already familiar with Undergraduate level (Introductory) Machine Learning courses are advised to go through the Graduate level (Advanced) courses. Those who are already very familiar with Machine Learning in general should simply watch the refreshers or skip this part. Advanced topics covered by advanced courses include Probabilistic Graphical Models, EM and clustering, Kernel Methods and SVMs, Reinforcement Learning, etc.
 
 - Refreshers
-  - [Kyunghyun Cho's ML w/o DL Lecture Notes](https://github.com/nyu-dl/Intro_to_ML_Lecture_Note)
+  - Kyunghyun Cho's [ML w/o DL Lecture Notes](https://github.com/nyu-dl/Intro_to_ML_Lecture_Note)
   - [Deep Learning Book - Numerical Computations](http://www.deeplearningbook.org/contents/numerical.html)
   - [Deep Learning Book - Machine Learning Basics](http://www.deeplearningbook.org/contents/ml.html)
-- Introductory ML Courses
+- Introductory
   - Andrew Ng's [Machine Learning](https://www.coursera.org/learn/machine-learning) on Coursera
   - A real Caltech course, Yaser Abu-Mostafa's [Learning From Data](https://work.caltech.edu/telecourse.html)
-- Advanced ML Courses
+- Advanced
   - A real CMU course, Tom Mitchell's [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15)
+- Readings
+  - 'Pattern Recognition and Machine Learning' by Bishop (2006)
+  - 'Machine Learning A Probabilistic Perspective' by Murphy (2012)
+
 
 ## Deep Learning
 [[Back To TOC]](#table-of-contents)
 
+Deep Learning is a rapidly advancing field so it is hard to keep track of every single good resource out there. Here, I attempt to curate some useful resources. 
 
+- Refreshers
+  - Chapters 1, 2, 3, and 4 of Kyunghyun Cho's [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
+- Books
+  - [Deep Learning Book](http://www.deeplearningbook.org) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+  - [Neural Networks and Deep Learning)[http://neuralnetworksanddeeplearning.com/] by Michael Neilson
+
+  
+  
 ## Statistical NLP
 [[Back To TOC]](#table-of-contents)
 
