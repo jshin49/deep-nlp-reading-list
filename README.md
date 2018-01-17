@@ -35,12 +35,15 @@ If you are confident in these math subjects, you can just skip this part or simp
   - Refreshers
     - [Deep Learning Book Chapter 3 - Probability and Information Theory](http://www.deeplearningbook.org/contents/prob.html)
     - [Khan Academy Probability and Statistics](https://www.khanacademy.org/math/statistics-probability)
-  - **[Harvard STAT110](https://projects.iq.harvard.edu/stat110)**: The infamous Joe Blitzstein's Introduction to probability and statistics. Despite being an introductory course, it covers quite a lot of the essentials we need to further understand the math in machine learning and deep learning.
+  - **[Harvard STAT110](https://projects.iq.harvard.edu/stat110)**: The infamous Joe Blitzstein's Introduction to probability and statistics. Despite being an introductory course, it covers quite a lot of the essentials we need to further understand the math in machine learning and deep learning.
+  - Readings
+    - Chapters 2~6 of <Machine Learning A Probabilistic Perspective> by Murphy (2012)
+    - Lecture Notes: [<Probability and Statistics for Data Science>](http://www.cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) by Carlos Fernandez-Granda
 
 ### Advanced
 [[Back To TOC]](#table-of-contents)
 
-The following subjects are some advanced materials that could be useful in understanding many Deep Learning theories and NLP. Particularly important ones are bolded.
+The following subjects are some advanced materials that could be useful in understanding many Deep Learning theories and NLP. Particularly relevant ones are bolded.
 
 - **Information Theory**
   - Refreshers
@@ -49,9 +52,9 @@ The following subjects are some advanced materials that could be useful in under
 - **Statistical Inference**
 - Opimization
 - **Convex Optimization**
-- Vector Calculus
-- Computational Linear Algebra
-  - 
+- **Vector Calculus**
+- Numerical Linear Algebra
+  - **[fast.ai Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra)**: Focuses on applying what we learned from Linear Algebra to practical Data Science tasks.
 - Abstract Algebra
 - Real and Complex Analysis
 - Theories of Deep Learning
@@ -60,6 +63,17 @@ The following subjects are some advanced materials that could be useful in under
 ## Machine Learning
 [[Back To TOC]](#table-of-contents)
 
+In this context, Machine Learning refers to the conventional Machine Learning methods used in modeling various tasks before the prevailing advent of deep neural networks. These algorithms are still very often used in the industry due to their performance (in terms of resource consumption) and interpretability. Those who are already familiar with Undergraduate level (Introductory) Machine Learning courses are advised to go through the Graduate level (Advanced) courses. Those who are already very familiar with Machine Learning in general should simply watch the refreshers or skip this part. Advanced topics covered by advanced courses include Probabilistic Graphical Models, EM and clustering, Kernel Methods and SVMs, Reinforcement Learning, etc.
+
+- Refreshers
+  - [Kyunghyun Cho's ML w/o DL Lecture Notes](https://github.com/nyu-dl/Intro_to_ML_Lecture_Note)
+  - [Deep Learning Book - Numerical Computations](http://www.deeplearningbook.org/contents/numerical.html)
+  - [Deep Learning Book - Machine Learning Basics](http://www.deeplearningbook.org/contents/ml.html)
+- Introductory ML Courses
+  - Andrew Ng's [Machine Learning](https://www.coursera.org/learn/machine-learning) on Coursera
+  - A real Caltech course, Yaser Abu-Mostafa's [Learning From Data](https://work.caltech.edu/telecourse.html)
+- Advanced ML Courses
+  - A real CMU course, Tom Mitchell's [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15)
 
 ## Deep Learning
 [[Back To TOC]](#table-of-contents)
