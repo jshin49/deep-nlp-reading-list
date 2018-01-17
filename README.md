@@ -3,6 +3,8 @@ This serves as my own detailed roadmap for studying Deep Learning and/with NLP. 
 
 ## Table of Contents
 0. [Mathematical Foundations](#mathematical-foundations)
+    - [Basics](#basics)
+    - [Advanced](#advanced)
 1. [Machine Learning](#machine-learning)
 2. [Deep Learning](#deep-learning)
 3. [Statistical NLP](#statistical-nlp)
