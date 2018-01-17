@@ -1,4 +1,4 @@
-# deep-nlp-roadmap
+# Deep NLP Roadmap
 My own detailed syllabus for learning Deep Learning and NLP
 
 ## Table of Contents
