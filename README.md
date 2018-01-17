@@ -1,5 +1,5 @@
 # Deep NLP Roadmap
-This serves as my own detailed roadmap for studying Deep Learning and/with NLP, followed by an awesome list of papers in ML, DL, and NLP. Each section will refer to useful materials that can help, including MOOCs, blog posts, books, lecture notes, papers.
+This serves as my own detailed roadmap for studying Deep Learning and/with NLP. Each section will refer to useful materials that can help, including MOOCs, blog posts, books, lecture notes, papers, and other awesome paper lists and roadmaps.
 
 ## Table of Contents
 0. [Mathematical Foundations](#mathematical-foundations)
