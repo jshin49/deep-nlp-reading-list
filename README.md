@@ -15,7 +15,7 @@ This serves as my own detailed roadmap for studying Deep Learning and/with NLP. 
     - [Text Generation](#text-generation)
     - [Multi-task Learning](#multi-task-learning)
     - [Neural Turing Machines](#neural-turing-machines)
-    - [Reinforcement Learning](#reinforcement-learning)
+    - [Reinforcement Learning for NLP](#reinforcement-learning-for-nlp)
     
 
 ## Mathematical Foundations
@@ -156,10 +156,11 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 ### Text Generation
 [[Back To TOC]](#table-of-contents)
 
-- Attention
+- Sequence-to-Sequence Learning
+- With Attention
 - Question Answering
 - Neural Machine Translation
-- Chatbots and Dialogue Systems
+- End-to-End Chatbots and Dialogue Systems
 
 ### Multi-task Learning
 [[Back To TOC]](#table-of-contents)
@@ -173,6 +174,6 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 - Memory Networks
 - Pointer Networks
 
-### Reinforcement Learning
+### Reinforcement Learning for NLP
 [[Back To TOC]](#table-of-contents)
 
