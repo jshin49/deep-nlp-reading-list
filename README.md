@@ -132,33 +132,47 @@ I don't believe there are many good Statistical NLP courses out there that are a
 Now we arrive to Deep NLP. You don't have to take all the materials I have mentioned up till now. In fact, you can even just start here, and tag along until you find some other interesting concepts embedded in these materials that are from above, and study them in parallel: for example, statistical NLP related stuff or Deep Learning architectures and papers.
 
 ### Neural Language Modeling with RNNs
+[[Back To TOC]](#table-of-contents)
+
 - Blog Posts
   - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
   - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
   
 ### Embeddings
+[[Back To TOC]](#table-of-contents)
+
 - Word Embeddings
 - Embedding phrases, sentences, paragraphs, context, and documents
 - Cross Lingual
 
 ### Text Classification 
+[[Back To TOC]](#table-of-contents)
+
 - Neural Networks
 - Convolutional Neural Networks
 - Recurrent Neural Networks
 - Recursive Neural Networks
 
 ### Text Generation
+[[Back To TOC]](#table-of-contents)
+
 - Attention
 - Question Answering
 - Neural Machine Translation
 - Chatbots and Dialogue Systems
 
 ### Multi-task Learning
+[[Back To TOC]](#table-of-contents)
+
 - Cross-lingual Tasks
 - Multi-Tasks
 
 ### Neural Turing Machines
+[[Back To TOC]](#table-of-contents)
+
 - Memory Networks
 - Pointer Networks
 
 ### Reinforcement Learning
+[[Back To TOC]](#table-of-contents)
+
