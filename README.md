@@ -9,7 +9,14 @@ This serves as my own detailed roadmap for studying Deep Learning and/with NLP. 
 2. [Deep Learning](#deep-learning)
 3. [Statistical NLP](#statistical-nlp)
 4. [Deep NLP](#deep-nlp)
-    - [Neural Language Modeling](#neural-language-modeling)
+    - [Neural Language Modeling](#neural-language-modeling-with-rnns)
+    - [Embeddings](#embeddings)
+    - [Text Classification](#text-classification)
+    - [Text Generation](#text-generation)
+    - [Multi-task Learning](#multi-task-learning)
+    - [Neural Turing Machines](#neural-turing-machines)
+    - [Reinforcement Learning](#reinforcement-learning)
+    
 
 ## Mathematical Foundations
 ### Basics
@@ -128,19 +135,30 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 - Blog Posts
   - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
   - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+  
 ### Embeddings
 - Word Embeddings
 - Embedding phrases, sentences, paragraphs, context, and documents
 - Cross Lingual
-### Text Classification with NNs, CNNs, and RNNs  
-### Text Generation (with Attention)
+
+### Text Classification 
+- Neural Networks
+- Convolutional Neural Networks
+- Recurrent Neural Networks
+- Recursive Neural Networks
+
+### Text Generation
+- Attention
 - Question Answering
 - Neural Machine Translation
 - Chatbots and Dialogue Systems
+
 ### Multi-task Learning
 - Cross-lingual Tasks
 - Multi-Tasks
-### Reinforcement Learning
+
 ### Neural Turing Machines
 - Memory Networks
 - Pointer Networks
+
+### Reinforcement Learning
