@@ -60,6 +60,7 @@ The following subjects are some advanced materials that could be useful in under
     - [Deep Learning Book Chapter 3 - Probability and Information Theory](http://www.deeplearningbook.org/contents/prob.html)
     - [Khan Academy Information Theory](https://www.khanacademy.org/computing/computer-science/informationtheory)
 - **Statistical Inference**
+- **Advanced Probability**
 - Opimization
 - **Convex Optimization**
 - **Vector Calculus**
