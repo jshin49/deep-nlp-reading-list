@@ -91,20 +91,37 @@ Deep Learning is a rapidly advancing field so it is hard to keep track of every 
 - Refreshers
   - Chapters 1, 2, 3, and 4 of Kyunghyun Cho's [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
   - Andrew Ng's Deep Learning courses [deeplearning.ai](https://www.deeplearning.ai/)
-- CMU [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Bhiksha Raj: The syallabus and reading list of this course seems very thorough and covers a lot of grounds.
+- CMU [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Bhiksha Raj: The syallabus and reading list of this course seems very thorough and covers a lot of grounds. (This course seems to be currently under construction for not upcoming semester, and I couldn't find archived data. However, just following the syllabus itself with other materials seem suitable enough)
+- The infamous **Stanford CS231n [Convolutional Neural Networks for Computer Vision](http://cs231n.stanford.edu/)** by Fei Fei Li: This course gives a nice introduction about Deep Learning and its applications to Computer Vision. The assignments are really well structured and gives you a well sense of how Deep Learning works without the TensorFlow magic, using only NumPy and Python.
 - Books
-  - [Deep Learning Book](http://www.deeplearningbook.org) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+  - **[Deep Learning Book](http://www.deeplearningbook.org)** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
   - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Neilson
-- Papers: Full list organized by topics and models can be found in [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap), or Columbia's seminar course [Advanced Topics in Deep Learning - Reading List](http://www.advancedtopicsindeeplearning.com/reading-list.html)
+- **Papers:** Full list organized by topics and models can be found in [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap), or Columbia's seminar course [Advanced Topics in Deep Learning - Reading List](http://www.advancedtopicsindeeplearning.com/reading-list.html)
   - Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. "Deep learning." Nature 521.7553 (2015): 436-444 [[pdf]](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf): A high-level survey paper by the three giants
   - Y. LeCun, L. Bottou, Y. Bengio and P. Haffner.  "Gradient-Based Learning Applied to Document Recognition."  Proceedings of the IEEE, 86(11):2278-2324. 1998 (Seminal Paper: LeNet) [[pdf]](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf): LeNet: Image Classification on Handwritten Digits
   - Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems. 2012. [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf): Big hit of Deep Learning, AlexNet
-  
+- Blog Posts
+  - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
+  - WildML [Recurrent Neural Networks Tutorial, Part 1 – Introduction to RNNs](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
+
   
 ## Statistical NLP
 [[Back To TOC]](#table-of-contents)
+
+I don't believe there are many good Statistical NLP courses out there that are at an introductory level. Here are some good resources to study it.
+
+- Columbia Michael Collins' COMS W4705: [Natural Language Processing](http://www.cs.columbia.edu/~mcollins/cs4705-fall2017/): This course covers a lot of traditional techniques often used in NLP.
+  - **[Notes on Statistical NLP](http://www.cs.columbia.edu/~mcollins/notes-spring2013.html)**
+  - Video Lectures on Coursera: Can't find the course anymore, but there are [Youtube videos](https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
+- Chris Manning's [CS 224N/Ling 284 — Natural Language Processing](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml) before merging with Richard Socher's CS224D, covers some missing pieces of Michael Collins' class, along with more real life applications such as Machine Translation.
+  - Video Lectures on [Youtube](https://www.youtube.com/playlist?list=PL6397E4B26D00A269)
+- Readings
+  - 'Foundations of Statistical Natural Language Processing>'by Manning and Schütze (1999)
 
 
 ## Deep NLP
 [[Back To TOC]](#table-of-contents)
 
+- Blog Posts
+  - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
+  - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
