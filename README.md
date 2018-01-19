@@ -101,6 +101,7 @@ Deep Learning is a rapidly advancing field so it is hard to keep track of every 
   - Andrew Ng's Deep Learning courses [deeplearning.ai](https://www.deeplearning.ai/)
 - CMU [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Bhiksha Raj: The syallabus and reading list of this course seems very thorough and covers a lot of grounds. (This course seems to be currently under construction for not upcoming semester, and I couldn't find archived data. However, just following the syllabus itself with other materials seem suitable enough)
 - The infamous **Stanford CS231n [Convolutional Neural Networks for Computer Vision](http://cs231n.stanford.edu/)** by Fei Fei Li: This course gives a nice introduction about Deep Learning and its applications to Computer Vision. The assignments are really well structured and gives you a well sense of how Deep Learning works without the TensorFlow magic, using only NumPy and Python.
+  - [Youtube Playlist](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - Books
   - **[Deep Learning Book](http://www.deeplearningbook.org)** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
   - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Neilson
@@ -116,13 +117,15 @@ Deep Learning is a rapidly advancing field so it is hard to keep track of every 
 ## Statistical NLP
 [[Back To TOC]](#table-of-contents)
 
-I don't believe there are many good Statistical NLP courses out there that are at an introductory level. Here are some good resources to study it.
+I couldn't find many good Statistical NLP courses out there that are at an introductory level. Here are some good resources to study it.
 
+- Refreshers
+  - Chapters 6~7 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037) book
 - Columbia Michael Collins' COMS W4705: [Natural Language Processing](http://www.cs.columbia.edu/~mcollins/cs4705-fall2017/): This course covers a lot of traditional techniques often used in NLP.
   - **[Notes on Statistical NLP](http://www.cs.columbia.edu/~mcollins/notes-spring2013.html)**
   - Video Lectures on Coursera: Can't find the course anymore, but there are [Youtube videos](https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
 - Chris Manning's [CS 224N/Ling 284 — Natural Language Processing](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml) before merging with Richard Socher's CS224D, covers some missing pieces of Michael Collins' class, along with more real life applications such as Machine Translation.
-  - Video Lectures on [Youtube](https://www.youtube.com/playlist?list=PL6397E4B26D00A269)
+  - Video Lectures on [Youtube](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - Readings
   - 'Foundations of Statistical Natural Language Processing' by Manning and Schütze (1999)
 
@@ -130,13 +133,20 @@ I don't believe there are many good Statistical NLP courses out there that are a
 ## Deep NLP
 [[Back To TOC]](#table-of-contents)
 
-Now we arrive to Deep NLP. You don't have to take all the materials I have mentioned up till now. In fact, you can even just start here, and tag along until you find some other interesting concepts embedded in these materials that are from above, and study them in parallel: for example, statistical NLP related stuff or Deep Learning architectures and papers.
+Now we arrive to Deep NLP. You don't have to take all the materials I have mentioned up till now. In fact, you can even just start here, and tag along until you find some other interesting concepts embedded in these materials that are from above, and study them in parallel: for example, statistical NLP related stuff or Deep Learning architectures and papers. However, it is recommended to at least work in parallel with the above concepts to better understand the applications of Deep Learning to NLP.
+
+- Stanford CS224N [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
+  - The archived version for [2017 Winter Version](https://web.archive.org/web/20171221032823/http://web.stanford.edu/class/cs224n/syllabus.html)
+  - [Youtube Playlist](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+- [Oxford Deep NLP](https://github.com/oxford-cs-deepnlp-2017/lectures)
+  - [Youtube Playlist](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)(Unofficial)
+- CMU CS 11-747 [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
+  - Youtube Playlist](https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT)
 
 ### Neural Language Modeling with RNNs
 [[Back To TOC]](#table-of-contents)
 
 - Blog Posts
-  - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
   - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
   
 ### Embeddings
@@ -151,6 +161,8 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 
 - Neural Networks
 - Convolutional Neural Networks
+  - Blog Posts
+    - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 - Recurrent Neural Networks
 - Recursive Neural Networks
 
@@ -158,15 +170,16 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 [[Back To TOC]](#table-of-contents)
 
 - Sequence-to-Sequence Learning
-- With Attention
+- Attention
 - Question Answering
 - Neural Machine Translation
-- End-to-End Chatbots and Dialogue Systems
+- End-to-End Chatbots
+- Dialogue Systems
 
-### Multi-task Learning
+### Multi-Lingual, Multi-task Learning
 [[Back To TOC]](#table-of-contents)
-
-- Cross-lingual Tasks
+- Multi-Lingual Tasks
+- Cross-Lingual Tasks
 - Multi-Tasks
 
 ### Neural Turing Machines
