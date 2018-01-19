@@ -13,7 +13,7 @@ This serves as my own detailed roadmap for studying Deep Learning and/with NLP. 
     - [Embeddings](#embeddings)
     - [Text Classification](#text-classification)
     - [Text Generation](#text-generation)
-    - [Multi-task Learning](#multi-task-learning)
+    - [Multi-task Learning](#multi-lingual-multi-task-learning)
     - [Neural Turing Machines](#neural-turing-machines)
     - [Reinforcement Learning for NLP](#reinforcement-learning-for-nlp)
     
