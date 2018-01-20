@@ -137,6 +137,7 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 
 - Overview
   - Goldberg, [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
+  - Kyunghyun Cho's Lecture Notes of [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
 - Books
   - [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037)
 - Courses
