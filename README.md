@@ -135,13 +135,18 @@ I couldn't find many good Statistical NLP courses out there that are at an intro
 
 Now we arrive to Deep NLP. You don't have to take all the materials I have mentioned up till now. In fact, you can even just start here, and tag along until you find some other interesting concepts embedded in these materials that are from above, and study them in parallel: for example, statistical NLP related stuff or Deep Learning architectures and papers. However, it is recommended to at least work in parallel with the above concepts to better understand the applications of Deep Learning to NLP.
 
-- Stanford CS224N [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
-  - The archived version for [2017 Winter Version](https://web.archive.org/web/20171221032823/http://web.stanford.edu/class/cs224n/syllabus.html)
-  - [Youtube Playlist](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
-- [Oxford Deep NLP](https://github.com/oxford-cs-deepnlp-2017/lectures)
-  - [Youtube Playlist](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)(Unofficial)
-- CMU CS 11-747 [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
-  - Youtube Playlist](https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT)
+- Overview
+  - Goldberg, [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
+- Books
+  - [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037)
+- Courses
+  - Stanford CS224N [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/syllabus.html)
+    - The archived version for [2017 Winter Version](https://web.archive.org/web/20171221032823/http://web.stanford.edu/class/cs224n/syllabus.html)
+    - [Youtube Playlist](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+  - [Oxford Deep NLP](https://github.com/oxford-cs-deepnlp-2017/lectures)
+    - [Youtube Playlist](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)(Unofficial)
+  - CMU CS 11-747 [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
+    - Youtube Playlist](https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT)
 
 ### Neural Language Modeling with RNNs
 [[Back To TOC]](#table-of-contents)
