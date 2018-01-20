@@ -120,7 +120,7 @@ Deep Learning is a rapidly advancing field so it is hard to keep track of every 
 I couldn't find many good Statistical NLP courses out there that are at an introductory level. Here are some good resources to study it.
 
 - Refreshers
-  - Chapters 6~7 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037) book
+  - Chapters 6~9 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037) book
 - Columbia Michael Collins' COMS W4705: [Natural Language Processing](http://www.cs.columbia.edu/~mcollins/cs4705-fall2017/): This course covers a lot of traditional techniques often used in NLP.
   - **[Notes on Statistical NLP](http://www.cs.columbia.edu/~mcollins/notes-spring2013.html)**
   - Video Lectures on Coursera: Can't find the course anymore, but there are [Youtube videos](https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
