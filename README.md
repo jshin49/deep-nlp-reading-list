@@ -148,21 +148,18 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
 
 - Lecture Notes
   - Chapter 4 and 5 of Kyunghyun Cho's [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
-  
 - Books
   - Chapter 9.4, 14, and 15 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037)
   - [N-Grams](https://web.stanford.edu/~jurafsky/slp3/4.pdf) by Jurafsky and Martin
-
 - Blog Posts
   - Machine Learning Mastery - [Gentle Introduction to Statistical Language Modeling and Neural Language Models](https://machinelearningmastery.com/statistical-language-modeling-and-neural-language-models/): Good intuitions. Very light on math, so go through the reference materials of the post.
   - Andrej Karpathy [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/): Detailed understanding of LSTM, and how each gate works.
-  
 - Papers
-  - Y. Bengio et al, "A Neural Probabilistic Language Model" Journal of Machine Learning Research 3 (2003) [[pdf]](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+  - Y. Bengio et al, "A Neural Probabilistic Language Model" Journal of Machine Learning Research (2003). [[pdf]](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
   - T. Mikolov et al, "Recurrent neural network based language model" InterSpeech (2010). [[pdf]](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-  - K. Greff et al, "LSTM: A Search Space Odyssey" IEEE Transactions on Neural Networks and Learning Systems (2017 [[pdf]](https://arxiv.org/pdf/1503.04069.pdf)
-  - K. Cho et al, "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling" arXiv (2014) [[pdf]](https://arxiv.org/pdf/1412.3555.pdf)
+  - K. Greff et al, "LSTM: A Search Space Odyssey" IEEE Transactions on Neural Networks and Learning Systems (2017). [[pdf]](https://arxiv.org/pdf/1503.04069.pdf)
+  - K. Cho et al, "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling" arXiv (2014). [[pdf]](https://arxiv.org/pdf/1412.3555.pdf)
   
 ### Embeddings
 [[Back To TOC]](#table-of-contents)
