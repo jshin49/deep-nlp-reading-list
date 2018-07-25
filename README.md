@@ -1,5 +1,5 @@
-# Deep NLP Roadmap
-This serves as my own detailed roadmap for studying Deep Learning and/with NLP. Each section will refer to useful materials that can help, including MOOCs, blog posts, books, lecture notes, papers, and other awesome paper lists and roadmaps.
+# Deep NLP Reading List
+This serves as my own detailed roadmap and reading list/notes for studying Deep Learning and/with NLP. Each section will refer to useful materials that can help, including MOOCs, blog posts, books, lecture notes, papers, and other awesome paper lists and roadmaps.
 
 ## Table of Contents
 0. [Mathematical Foundations](#mathematical-foundations)
@@ -8,104 +8,106 @@ This serves as my own detailed roadmap for studying Deep Learning and/with NLP. 
 1. [Machine Learning](#machine-learning)
 2. [Deep Learning](#deep-learning)
 3. [Statistical NLP](#statistical-nlp)
-4. [Deep NLP](#deep-nlp)
-    - [Neural Language Modeling](#neural-language-modeling-with-rnns)
-    - [Embeddings](#embeddings)
+4. [Deep Learning for NLP](#deep-learning-for-nlp)
     - [Text Classification](#text-classification)
-    - [Text Generation](#text-generation)
-    - [Multi-Lingual, Multi-Task Learning](#multi-lingual-multi-task-learning)
-    - [Neural Turing Machines](#neural-turing-machines)
-    - [Reinforcement Learning for NLP](#reinforcement-learning-for-nlp)
+    - [Word Embeddings](#word-embeddings)
+    - [Question Answering](#question-answering)
+    - [End-to-End Dialog](#end-to-end-dialog)
+    - [Neural Machine Translation](#neural-machine-translation)
+    - [Multi-task Learning](#multi-task-learning)
+    - [Memory Augmented](#memory-augmented)
+    - [Meta Learning](#meta-learning)
     
 
 ## Mathematical Foundations
 ### Basics
 [[Back To TOC]](#table-of-contents)
 
-If you are confident in these math subjects, you can just skip this part or simply take a look at some refreshers. Otherwise, it is recommended to follow at least the bold-faced materials for each subject.
+If you are confident in these math subjects, you can just skip this part or simply take a look at some refreshers.
 
 - Linear Algebra
   - Refreshers 
-    - **Youtube Playlist: [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)**
+    - Youtube Playlist: [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
       - Approxmiately 2 hour long videos with Very Good Visualizations and clear explanations
-    - [Khan Academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
-  - **MIT Linear Algebra Course**: Very intuitive video lectures and materials by Prof. Gilbert Strang, MIT
-    - [OCW Scholar Version](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/): Follow this syllabus, and the recitation videos
-    - [Original Version](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/): Follow the readings and assignments here
+    - Khan Academy [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+  - MIT [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/)
 - Multivariable Calculus
   - Refreshers
-    - **Youtube Playlist: [Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)**
-    - **[Highlights of Calculus](https://ocw.mit.edu/resources/res-18-005-highlights-of-calculus-spring-2010/)**: Video lectures by Prof. Gilbert Strang, MIT
-    - [Khan Academy Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
-  - **MIT Multivariable Calculus Course**
-    - [OCW Scholar Version](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/index.htm): Follow this syllabus, and the recitation videos
-    - [Original Version](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/): Follow the readings and assignments here
+    - Youtube Playlist: [Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+    - [Highlights of Calculus](https://ocw.mit.edu/resources/res-18-005-highlights-of-calculus-spring-2010/): Video lectures by Prof. Gilbert Strang, MIT
+    - Khan Academy [Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
+  - MIT [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 - Probability and Statistics
   - Refreshers
     - [Deep Learning Book Chapter 3 - Probability and Information Theory](http://www.deeplearningbook.org/contents/prob.html)
     - Chapters 1, 2, and 11 of 'Pattern Recognition and Machine Learning' by Bishop (2006)
-    - [Khan Academy Probability and Statistics](https://www.khanacademy.org/math/statistics-probability)
-  - **[Harvard STAT110](https://projects.iq.harvard.edu/stat110)**: The infamous Joe Blitzstein's Introduction to probability and statistics. Despite being an introductory course, it covers quite a lot of the essentials we need to further understand the math in machine learning and deep learning.
+    - Khan Academy [Probability and Statistics](https://www.khanacademy.org/math/statistics-probability)
+  - Harvard [STAT110](https://projects.iq.harvard.edu/stat110)
   - Readings
     - Chapters 2~6 of 'Machine Learning A Probabilistic Perspective' by Murphy (2012)
-    - Lecture Notes: ['Probability and Statistics for Data Science'](http://www.cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) by Carlos Fernandez-Granda
+    - Lecture Notes: ['Probability and Statistics for Data Science'](http://www.cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf)
 
 ### Advanced
 [[Back To TOC]](#table-of-contents)
 
 The following subjects are some advanced materials that could be useful in understanding many Deep Learning theories and NLP. Particularly relevant ones are bolded.
 
-- **Information Theory**
+- Information Theory
   - Refreshers
     - [Deep Learning Book Chapter 3 - Probability and Information Theory](http://www.deeplearningbook.org/contents/prob.html)
-    - [Khan Academy Information Theory](https://www.khanacademy.org/computing/computer-science/informationtheory)
-- **Statistical Inference**
-- **Advanced Probability**
-- Opimization
-- **Convex Optimization**
-- **Vector Calculus**
+    - Khan Academy [Information Theory](https://www.khanacademy.org/computing/computer-science/informationtheory)
+- Statistical Inference
+  - CMU [Intermediate Statistics](http://www.stat.cmu.edu/~siva/705/main.html)
+- Advanced Probability
+- Random Matrix Theory
+  - MIT [Eigenvalues of Random Matrices](http://web.mit.edu/18.338/www/index.html)
+- Stochastic Processes
+  - Coursera [Stochastic Processes](https://www.coursera.org/learn/stochasticprocesses)
+  - MIT [Discrete Stocahstic Processes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/index.htm)
+  - UIUC [Notes on Random Processes](http://hajek.ece.illinois.edu/Papers/randomprocJuly14.pdf)
+- Opimization Theory
+- Convex Optimization
+- Vector Calculus
 - Numerical Linear Algebra
-  - **[fast.ai Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra)**: Focuses on applying what we learned from Linear Algebra to practical Data Science tasks.
+  - fast.ai [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra): Focuses on applying what we learned from Linear Algebra to practical Data Science tasks.
 - Abstract Algebra
 - Real and Complex Analysis
 - Theories of Deep Learning
-  - [Stanford STATS385](https://stats385.github.io/)
+  - Stanford [STATS385](https://stats385.github.io/)
 
 
 ## Machine Learning
 [[Back To TOC]](#table-of-contents)
 
-In this context, Machine Learning refers to the conventional Machine Learning methods used in modeling various tasks before the prevailing advent of deep neural networks. These algorithms are still very often used in the industry due to their performance (in terms of resource consumption) and interpretability. Those who are already familiar with Undergraduate level (Introductory) Machine Learning courses are advised to go through the Graduate level (Advanced) courses. Those who are already very familiar with Machine Learning in general should simply watch the refreshers or skip this part. Advanced topics covered by advanced courses include Probabilistic Graphical Models, EM and clustering, Kernel Methods and SVMs, Reinforcement Learning, etc.
+Machine Learning without Deep Learning.
 
 - Refreshers
   - Kyunghyun Cho's [ML w/o DL Lecture Notes](https://github.com/nyu-dl/Intro_to_ML_Lecture_Note)
-  - [Deep Learning Book - Numerical Computations](http://www.deeplearningbook.org/contents/numerical.html)
-  - [Deep Learning Book - Machine Learning Basics](http://www.deeplearningbook.org/contents/ml.html)
 - Introductory
   - Andrew Ng's [Machine Learning](https://www.coursera.org/learn/machine-learning) on Coursera
-  - A real Caltech course, Yaser Abu-Mostafa's [Learning From Data](https://work.caltech.edu/telecourse.html)
+  - Yaser Abu-Mostafa's [Learning From Data](https://work.caltech.edu/telecourse.html)
 - Advanced
-  - A real CMU course, Tom Mitchell's [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15)
+  - Tom Mitchell's [Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15)
+  - CMU [Intro to ML 10-701](http://www.cs.cmu.edu/~pradeepr/701/)
+  - CMU [Advanced Intro to ML](https://www.cs.cmu.edu/~epxing/Class/10715/lecture.html)
 - Readings
-  - 'Pattern Recognition and Machine Learning' by Bishop (2006)
+  - **'Pattern Recognition and Machine Learning' by Bishop (2006)**
   - 'Machine Learning A Probabilistic Perspective' by Murphy (2012)
 
 
 ## Deep Learning
 [[Back To TOC]](#table-of-contents)
 
-Deep Learning is a rapidly advancing field so it is hard to keep track of every single good resource out there. Here, I attempt to curate some useful resources. I also highly recommend checking out the full paper reading list provided as a link to guide you through the topics you're interested in.
-
 - Refreshers
   - Chapters 1, 2, 3, and 4 of Kyunghyun Cho's [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
   - Andrew Ng's Deep Learning courses [deeplearning.ai](https://www.deeplearning.ai/)
-- CMU [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Bhiksha Raj: The syallabus and reading list of this course seems very thorough and covers a lot of grounds. (This course seems to be currently under construction for not upcoming semester, and I couldn't find archived data. However, just following the syllabus itself with other materials seem suitable enough)
-- The infamous **Stanford CS231n [Convolutional Neural Networks for Computer Vision](http://cs231n.stanford.edu/)** by Fei Fei Li: This course gives a nice introduction about Deep Learning and its applications to Computer Vision. The assignments are really well structured and gives you a well sense of how Deep Learning works without the TensorFlow magic, using only NumPy and Python.
+- CMU [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/)
+- Stanford [CS231n Convolutional Neural Networks for Computer Vision](http://cs231n.stanford.edu/)
   - [Youtube Playlist](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - Books
-  - **[Deep Learning Book](http://www.deeplearningbook.org)** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+  - [Deep Learning Book](http://www.deeplearningbook.org) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
   - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Neilson
-- **Papers:** Full list organized by topics and models can be found in [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap), or Columbia's seminar course [Advanced Topics in Deep Learning - Reading List](http://www.advancedtopicsindeeplearning.com/reading-list.html)
+- Papers: Full list organized by topics and models can be found in [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap), or Columbia's seminar course [Advanced Topics in Deep Learning - Reading List](http://www.advancedtopicsindeeplearning.com/reading-list.html)
   - Yann LeCun, Yoshua Bengio, and Geoffrey Hinton. "Deep learning." Nature 521.7553 (2015): 436-444 [[pdf]](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf): A high-level survey paper by the three giants
   - Y. LeCun, L. Bottou, Y. Bengio and P. Haffner.  "Gradient-Based Learning Applied to Document Recognition."  Proceedings of the IEEE, 86(11):2278-2324. 1998 (Seminal Paper: LeNet) [[pdf]](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf): LeNet: Image Classification on Handwritten Digits
   - Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems. 2012. [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf): Big hit of Deep Learning, AlexNet
@@ -117,23 +119,21 @@ Deep Learning is a rapidly advancing field so it is hard to keep track of every 
 ## Statistical NLP
 [[Back To TOC]](#table-of-contents)
 
-I couldn't find many good Statistical NLP courses out there that are at an introductory level. Here are some good resources to study it.
-
 - Refreshers
   - Chapters 6~9.3 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037) book
 - Columbia Michael Collins' COMS W4705: [Natural Language Processing](http://www.cs.columbia.edu/~mcollins/cs4705-fall2017/): This course covers a lot of traditional techniques often used in NLP.
-  - **[Notes on Statistical NLP](http://www.cs.columbia.edu/~mcollins/notes-spring2013.html)**
+  - [Notes on Statistical NLP](http://www.cs.columbia.edu/~mcollins/notes-spring2013.html)
   - Video Lectures on Coursera: Can't find the course anymore, but there are [Youtube videos](https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
 - Chris Manning's [CS 224N/Ling 284 — Natural Language Processing](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml) before merging with Richard Socher's CS224D, covers some missing pieces of Michael Collins' class, along with more real life applications such as Machine Translation.
   - Video Lectures on [Youtube](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - Readings
   - 'Foundations of Statistical Natural Language Processing' by Manning and Schütze (1999)
+  - [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) drafts by Dan Jurafsky and James Martin
 
-
-## Deep NLP
+## Deep Learning for NLP
 [[Back To TOC]](#table-of-contents)
 
-Now we arrive to Deep NLP. You don't have to take all the materials I have mentioned up till now. In fact, you can even just start here, and tag along until you find some other interesting concepts embedded in these materials that are from above, and study them in parallel: for example, statistical NLP related stuff or Deep Learning architectures and papers. However, it is recommended to at least work in parallel with the above concepts to better understand the applications of Deep Learning to NLP.
+Here I mainly organize papers I have read or plan to read. Among the ones I read, some accompany notes in a separate .md file linked.
 
 - Overview
   - Goldberg, [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
@@ -149,70 +149,54 @@ Now we arrive to Deep NLP. You don't have to take all the materials I have menti
   - CMU CS 11-747 [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
     - Youtube Playlist](https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT)
 
-### Neural Language Modeling with RNNs
+### Text Classification
 [[Back To TOC]](#table-of-contents)
 
-- Lecture Notes
-  - Chapter 4 and 5 of Kyunghyun Cho's [Natural Language Understanding with Distributed Representation Lecture Notes](https://github.com/nyu-dl/NLP_DL_Lecture_Note)
-- Books
-  - Chapter 9.4, 14, and 15 of [Goldberg](http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037)
-  - [N-Grams](https://web.stanford.edu/~jurafsky/slp3/4.pdf) by Jurafsky and Martin
-- Blog Posts
-  - Machine Learning Mastery - [Gentle Introduction to Statistical Language Modeling and Neural Language Models](https://machinelearningmastery.com/statistical-language-modeling-and-neural-language-models/): Good intuitions. Very light on math, so go through the reference materials of the post.
-  - Andrej Karpathy [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-  - Colah [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/): Detailed understanding of LSTM, and how each gate works.
-- Papers
-  - Y. Bengio et al, "A Neural Probabilistic Language Model" Journal of Machine Learning Research (2003). [[pdf]](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
-  - T. Mikolov et al, "Recurrent neural network based language model" InterSpeech (2010). [[pdf]](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-  - K. Greff et al, "LSTM: A Search Space Odyssey" IEEE Transactions on Neural Networks and Learning Systems (2017). [[pdf]](https://arxiv.org/pdf/1503.04069.pdf)
-  - K. Cho et al, "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling" arXiv (2014). [[pdf]](https://arxiv.org/pdf/1412.3555.pdf)
-  
-### Embeddings
+- Abusive Language
+- Sentiment Analysis
+ 
+### Word Embeddings
 [[Back To TOC]](#table-of-contents)
 
-- Word Embeddings
-  - Papers
-    - Y. Bengio et al, "A Neural Probabilistic Language Model" Journal of Machine Learning Research 3 (2003) [[pdf]](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+- Language Modeling
+- Contextualized Word Embeddings
+- Probailistic Word Embeddings
+- Interpretable Word Embeddings
 
-- Embedding phrases, sentences, paragraphs, context, and documents
-- Cross Lingual
-
-### Text Classification 
+### Question Answering
 [[Back To TOC]](#table-of-contents)
 
-- Neural Networks
-- Convolutional Neural Networks
-  - Blog Posts
-    - WildML [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
-- Recurrent Neural Networks
-- Recursive Neural Networks
+- SQuAD 1.0 Models
 
-### Text Generation
+### End-to-End Dialog
 [[Back To TOC]](#table-of-contents)
 
-- Sequence-to-Sequence Learning
-  - Papers
-    - K. Cho et al, "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation" Proceedings of SSST-8
-    - K. Cho et al, "On the Properties of Neural Machine Translation: Encoder–Decoder Approaches" Proceedings of SSST-8
-  
-- Attention
-- Question Answering
-- Neural Machine Translation
-- End-to-End Chatbots
-- Dialogue Systems
+- Goal-oriented
+  - Dialog State Tracking
+  - Latent Intents
+  - Knowledge Base
+  - Model Architectures
+  - Datasets
+  - Using RL
+- Chit Chat
 
-### Multi-Lingual, Multi-task Learning
+
+### Neural Machine Translation
 [[Back To TOC]](#table-of-contents)
-- Multi-Lingual Tasks
-- Cross-Lingual Tasks
-- Multi-Tasks
 
-### Neural Turing Machines
+- Multi-linguality
+
+### Multi-task Learning
+[[Back To TOC]](#table-of-contents)
+
+### Memory Augmented
 [[Back To TOC]](#table-of-contents)
 
 - Memory Networks
 - Pointer Networks
+- Neural Turing Machines
 
-### Reinforcement Learning for NLP
+### Meta Learning
 [[Back To TOC]](#table-of-contents)
 
+- MAML
